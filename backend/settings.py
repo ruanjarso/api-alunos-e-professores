@@ -9,8 +9,8 @@ import dj_database_url
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'sua-chave-secreta'
-DEBUG = True
-ALLOWED_HOSTS = ['https://api-alunos-e-professores.onrender.com/']
+DEBUG = False
+ALLOWED_HOSTS = ['sua-api.onrender.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
